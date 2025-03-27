@@ -1,0 +1,122 @@
+.menteeEdit {
+    flex: 4;
+    padding: 20px;
+  }
+  .menteeEditTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menteeEditTitleContainer button {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .menteeEditContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  .menteeEditShow {
+    flex: 1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+  }
+  .menteeEditUpdate {
+    flex: 2;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .menteeEditShowTop {
+    display: flex;
+    align-items: center;
+  }
+  .menteeEditShowTop img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .menteeEditShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .menteeEditShowBottom h3 {
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  .menteeEditShowBottom h3 {
+    color: rgb(171, 171, 171);
+  }
+  .menteeEditShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #444;
+  }
+  .menteeEditShowIcon {
+    font-size: 16px !important;
+  }
+  .menteeEditShowInfo span {
+    margin-left: 10px;
+  }
+  .menteeEditUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  .menteeEditUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .menteeEditUpdate h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .menteeEditUpdateLeftItmes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .menteeEditUpdateLeftItmes label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .menteeEditUpdateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    outline: none;
+  }
+  .menteeEditUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .menteeEditUpdateUpload {
+    display: flex;
+    align-items: center;
+  }
+  .menteeEditUpdateIcon {
+    cursor: pointer;
+  }
+  .menteeEditUpdateButton {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: bold;
+  }
+  

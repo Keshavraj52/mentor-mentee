@@ -1,0 +1,51 @@
+.student {
+    text-align: center;
+    padding: 20px;
+    flex:4
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid #f110cb;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #782828;
+    font-weight: bold;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #0a21f7;
+}
+
+.student-table tr:hover {
+    background-color: #ff0000;
+}
+
+/* Style for "Edit" button */
+.studentEdit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px; /* Adjust the margin as needed */
+}
+
+/* Style for "Delete" button */
+.studentDelete {
+    color: red;
+    cursor: pointer;
+}
+.studentEdit {
+    color: #fff;
+    cursor: pointer;
+  }
